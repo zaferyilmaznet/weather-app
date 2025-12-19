@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="weather-app">
+      <header>
+        <h1>Weather Report</h1>
+      </header>
+      <main>
+        <section class="search">
+          <form class="search__form" action="">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Type your city"
+            />
+            <button class="search__button btn">Search</button>
+          </form>
+          <button class="search__geolocation btn">Use Geolocation</button>
+        </section>
+        <section class="weather-card">
+          <div id="location" class="weather-card__location"></div>
+          <div id="date" class="weather-card__date"></div>
+          <div id="temperature" class="weather-card__temperature"></div>
+          <div id="condition" class="weather-card__condition"></div>
+        </section>
+        <section class="weather-details">
+          <div class="detail"><span id="rain"></span></div>
+          <div class="detail"><span id="feelslike"></span></div>
+          <div class="detail"><span id="wind"></span></div>
+          <div class="detail"><span id="pressure"></span></div>
+        </section>
+      </main>
+      <footer class="app-footer">
+        <p>
+          &copy; 2025 Zafer Yilmaz -
+          <a href="https://github.com/zaferyilmaznet" target="_blank">GitHub</a>
+          - Local Weather App v.2.0.0
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
