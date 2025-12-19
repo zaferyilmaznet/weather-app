@@ -29,6 +29,6 @@ API keys are securely stored using environment variables and are never exposed t
 
 ## Demo
 
-👉 [Live Demo](https://project-name.vercel.app)
+👉 [Live Demo](https://weather-app-rho-eight-93.vercel.app/)
 
 © 2025 Zafer Yilmaz
